@@ -1,0 +1,21 @@
+
+# Ignore node_modules  
+node_modules/  
+
+# Ignore environment files (sensitive data)  
+.env  
+
+# Ignore database dumps or local database files  
+*.sqlite  
+*.sqlite3  
+dump.rdb  
+mongod.lock  
+*.log  
+
+# Ignore system files  
+.DS_Store  
+Thumbs.db  
+
+# Ignore editor-specific files  
+.vscode/  
+.idea/  
